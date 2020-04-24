@@ -16,7 +16,7 @@ class COUNTSTRPERM {
     } else {
       for (int i = 0; i < str.length(); i++) {
         String rem = str.substring(0, i) + str.substring(i + 1);
-        System.out.println("STR:- " + str + " PRE:- " + prefix + "REM:- " + rem);
+        System.out.println(" STR:- " + str + " PRE:- " + prefix + "REM:- " + rem);
         permutation(rem, prefix + str.charAt(i));
       }
     }
