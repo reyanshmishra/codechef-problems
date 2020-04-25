@@ -3,18 +3,18 @@ import java.util.Scanner;
 class GCDandLCM {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        long T = scan.nextLong();
+        int T = scan.nextInt();
         while (T > 0) {
-            long A = scan.nextLong();
-            long B = scan.nextLong();
-            long gcd = GCD(A, B);
+            int A = scan.nextInt();
+            int B = scan.nextInt();
+            int gcd = GCD(A, B);
             System.out.println(gcd + " " + (A * B) / gcd);
             T--;
         }
         scan.close();
     }
 
-    static long GCD(long a, long b) {
+    static int GCD(int a, int b) {
         if (a == 0)
             return b;
         return GCD(b % a, a);
