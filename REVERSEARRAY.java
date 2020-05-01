@@ -22,6 +22,5 @@ class REVERSEARRAY {
       array[lastPlace] = start;
       System.out.println(Arrays.toString(array));
     }
-
   }
 }
