@@ -1,29 +1,14 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 
 
 public class SubstringsOfStringMain {
     public static void main(String[] args) throws IOException {
 
-        List<Integer> list = new ArrayList<Integer>() {
-            {
-                add(1);
-                add(2);
-                add(3);
-                add(3);
-                add(2);
-                add(223);
-            }
-        };
+
         System.out.println("===");
 
-        System.out.println(aa(list));
 
     }
 

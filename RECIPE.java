@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 import java.util.Scanner;
 
 /**
@@ -31,12 +29,6 @@ class RECIPE {
         Scanner scan = new Scanner(System.in);
         int tests = scan.nextInt();
         while (tests > 0) {
-            int numberOfIngredients = scan.nextInt();
-            int ingredients[] = new int[numberOfIngredients];
-
-            for (int i : ingredients) {
-
-            }
 
 
 
