@@ -9,28 +9,26 @@ class CopsandtheThiefDevu {
             int copsInHouses = scan.nextInt();
             int perminHouses = scan.nextInt();
             int forMins = scan.nextInt();
+            int houses[] = new int[100];
+            int totalCops = perminHouses * forMins;
 
-            int m[] = new int[copsInHouses];
+
             for (int i = 0; i < copsInHouses; i++) {
-                m[i] = scan.nextInt();
-            }
-            int totalScannedHouses = perminHouses * forMins;
-            int leftSide = -1;
-            int rightSide = -1;
-
-            for (int i = 0; i < m.length; i++) {
-
-                int coverLeftSide = m[i] - totalScannedHouses;
-                int coverRightSide = m[i] + totalScannedHouses;
-
-                if (leftSide == -1 && leftSide < coverLeftSide && leftSide < 0) {
-                    leftSide = coverLeftSide;
-                }
-                if (rightSide < coverRightSide && coverRightSide < 100) {
-                    rightSide = coverRightSide;
+                int m = scan.nextInt();
+                int from = m - totalCops < 1 ? 1 : m - totalCops;
+                int till = m + totalCops > 100 ? 100 : m + totalCops;
+                for (int j = from; j <= till; j++) {
+                    houses[j - 1] = 1;
                 }
             }
-            System.out.println(rightSide + ":" + leftSide);
+
+            int safeHouses = 0;
+            for (int i : houses) {
+                if (i == 0) {
+                    safeHouses++;
+                }
+            }
+            System.out.println(safeHouses);
 
             T--;
         }
