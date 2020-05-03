@@ -1,11 +1,9 @@
 
 import java.util.*;
-import java.io.*;
 
 class MinimumMaximum {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        PrintWriter print = new PrintWriter(System.out);
 
         int T = scan.nextInt();
         while (T > 0) {
@@ -14,8 +12,11 @@ class MinimumMaximum {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = scan.nextLong();
             }
+            Arrays.sort(arr);
 
-            print.println(arr[0] * arr.length - 1);
+            long result = arr[0] * (arr.length - 1);
+            System.out.println(result);
+
             T--;
         }
         scan.close();

@@ -6,18 +6,20 @@ class Pieceofcake {
         int T = scan.nextInt();
         while (T > 0) {
             String string = scan.next();
-            HashMap<Character, Integer> hm = new HashMap<>();
-            String result = "NO";
-            for (int i = 0; i < string.length(); i++) {
-                char c = string.charAt(i);
-                if (hm.containsKey(c)) {
-                    result = "YES";
-                    break;
-                } else {
-                    hm.put(c, 1);
+            char[] chars = string.toCharArray();
+            int count = 0;
+            for (int i = 0; i < chars.length; i++) {
+                for (int j = 0; j < chars.length; j++) {
+                    if (chars[i] == chars[j]) {
+                        count++;
+                    }
                 }
             }
-            System.out.println(result);
+            if (count == chars.length / 2) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
 
             T--;
         }

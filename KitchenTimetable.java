@@ -6,16 +6,19 @@ class KitchenTimetable {
         int T = scan.nextInt();
         while (T > 0) {
             int N = scan.nextInt();
-            int RT[] = new int[N];
-            for (int i = 1; i <= N; i++) {
-                RT[i] = scan.nextInt();
-            }
-
+            int GT[] = new int[N + 1];
             int canCook = 0;
 
-            for (int i = 1; i <= RT.length; i++) {
+            for (int i = 1; i <= N; i++) {
+                GT[i] = scan.nextInt();
             }
-            System.out.println("" + canCook);
+            for (int i = 1; i <= N; i++) {
+                int required = scan.nextInt();
+                if (required <= GT[i] - GT[i - 1]) {
+                    canCook++;
+                }
+            }
+            System.out.println(canCook);
             T--;
         }
         scan.close();
