@@ -6,11 +6,6 @@ class RAINBOWA {
         int T = scan.nextInt();
 
         while (T > 0) {
-            int N = scan.nextInt();
-            for (int i = 0; i < N; i++) {
-                int d = scan.nextInt();
-            }
-
 
             T--;
         }
