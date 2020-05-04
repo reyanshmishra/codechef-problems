@@ -6,20 +6,22 @@ class Pieceofcake {
         int T = scan.nextInt();
         while (T > 0) {
             String string = scan.next();
-            char[] chars = string.toCharArray();
+            int alphabets[] = new int[26];
+            String result = "NO";
             int count = 0;
-            for (int i = 0; i < chars.length; i++) {
-                for (int j = 0; j < chars.length; j++) {
-                    if (chars[i] == chars[j]) {
-                        count++;
-                    }
+            for (int i = 0; i < string.length(); i++) {
+                int index = string.charAt(i) - 'a';
+                alphabets[index]++;
+                if (alphabets[index] > count) {
+                    count = alphabets[index];
+                }
+                if (count == string.length() - count) {
+                    result = "YES";
+                    break;
                 }
             }
-            if (count == chars.length / 2) {
-                System.out.println("YES");
-            } else {
-                System.out.println("NO");
-            }
+
+            System.out.println(result);
 
             T--;
         }
