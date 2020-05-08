@@ -1,4 +1,3 @@
-import java.util.*;
 
 class Fibonacci {
     public static void main(String[] args) {

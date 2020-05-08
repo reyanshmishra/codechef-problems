@@ -1,5 +1,3 @@
-import java.util.*;
-
 class BinarySearch {
     public static void main(String[] args) {
         int find = 10;
