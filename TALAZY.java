@@ -6,18 +6,27 @@ class TALAZY {
         int T = scan.nextInt();
         while (T > 0) {
 
-            int N = scan.nextInt();
-            int B = scan.nextInt();
-            int M = scan.nextInt();
-
+            long N = scan.nextLong();
+            long B = scan.nextLong();
+            long M = scan.nextLong();
+            long time = 0;
             while (N > 0) {
-                if (N % 2 == 0)
-                    N = N / 2;
-                else
-                    N = (N + 1) / 2;
-
+                long solved = 0;
+                if (N % 2 == 0) {
+                    solved = (N / 2);
+                    N = N - solved;
+                } else {
+                    solved = ((N + 1) / 2);
+                    N = N - solved;
+                }
+                if (N > 0) {
+                    time = time + (solved * M) + B;
+                } else {
+                    time = time + (solved * M);
+                }
+                M = M * 2;
             }
-
+            System.out.println(time);
             T--;
         }
         scan.close();

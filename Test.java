@@ -1,7 +1,10 @@
+import java.util.*;
 
-public class Test {
-
+class Test {
     public static void main(String[] args) {
-        System.out.println('d' - 'a');
+        String s1 = "yes";
+        String s2 = "yes";
+        String s3 = new String(s1);
+        System.out.println(s3 == s2);
     }
 }

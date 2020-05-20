@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Pieceofcake {
+class LCH15JAB {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int T = scan.nextInt();

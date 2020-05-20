@@ -1,0 +1,602 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ERROR",
+            "request": "launch",
+            "mainClass": "ERROR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MAXDIFF",
+            "request": "launch",
+            "mainClass": "MAXDIFF",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CSUB",
+            "request": "launch",
+            "mainClass": "CSUB",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - STONES",
+            "request": "launch",
+            "mainClass": "STONES",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ALPHABET<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ALPHABET",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ATM2<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ATM2",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AreaORPerimeter<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "AreaORPerimeter",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CANDY123<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CANDY123",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CARVANS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CARVANS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CATSDOGS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CATSDOGS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CCOOK<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CCOOK",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CFRTEST<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CFRTEST",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CHEFSQ<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CHEFSQ",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CHN15A<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CHN15A",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CIELAB<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CIELAB",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CLEANUP<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CLEANUP",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CNOTE<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CNOTE",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-COLOR<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "COLOR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-COMM3<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "COMM3",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CONFLIP<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CONFLIP",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CORUS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CORUS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-COUNTSTRPERM<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "COUNTSTRPERM",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChefandDolls<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ChefandDolls",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChefandFruits<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ChefandFruits",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChefandSnackDown<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ChefandSnackDown",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChefandTwoStrings<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ChefandTwoStrings",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chefanddigitsofanumber<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Chefanddigitsofanumber",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChefandtheWildcardMatching<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ChefandtheWildcardMatching",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClosingtheTweets<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ClosingtheTweets",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Codechef<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Codechef",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinsAndTriangle<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CoinsAndTriangle",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CopsandtheThiefDevu<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CopsandtheThiefDevu",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoronavirusSpread<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CoronavirusSpread",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CuttingRecipes<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "CuttingRecipes",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DEVUGRAP<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "DEVUGRAP",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DWNLD<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "DWNLD",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecrementORIncrement<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "DecrementORIncrement",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FACTO<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "FACTO",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FLOW00W<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "FLOW00W",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FarmerFeb<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "FarmerFeb",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacci<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FitSquaresinTriangle<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "FitSquaresinTriangle",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ForgottenLanguage<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "ForgottenLanguage",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GCDandLCM<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "GCDandLCM",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GradeTheSteel<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "GradeTheSteel",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Greedypuppy<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Greedypuppy",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GrossSalary<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "GrossSalary",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HORSES<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "HORSES",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HOWMANYDIGITS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "HOWMANYDIGITS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JOHNY<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "JOHNY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KitchenTimetable<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "KitchenTimetable",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MOVIEWKN<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "MOVIEWKN",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MalvikaBalloons<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "MalvikaBalloons",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinimumMaximum<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "MinimumMaximum",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NUKES<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "NUKES",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PERMUT2<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "PERMUT2",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PRIMENUMBER<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "PRIMENUMBER",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Pieceofcake<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Pieceofcake",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PuppyandSum<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "PuppyandSum",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RAINBOWA<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "RAINBOWA",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RECIPE<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "RECIPE",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RECTSQ<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "RECTSQ",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-REVERSEARRAY<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "REVERSEARRAY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Rectangle<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SIMDISH<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "SIMDISH",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-STICKS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "STICKS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-STRPALIN<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "STRPALIN",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SUBINC<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "SUBINC",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubArray<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "SubArray",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubstringsOfStringMain<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "SubstringsOfStringMain",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumORDifference<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "SumORDifference",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TALAZY<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TALAZY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TWONMS<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TWONMS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TanuandHeadbob<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TanuandHeadbob",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TechLead1<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TechLead1",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TheSmallestPair<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TheSmallestPair",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TotalExpenses<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TotalExpenses",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TransformtheExpression<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TransformtheExpression",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwovsTen<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "TwovsTen",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-URCALC<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "URCALC",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VOWELorCONSONANT<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "VOWELorCONSONANT",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VersionControlSystem<Codechef_26ca7f23>",
+            "request": "launch",
+            "mainClass": "VersionControlSystem",
+            "projectName": "Codechef_26ca7f23"
+        }
+    ]
+}
