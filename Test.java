@@ -1,10 +1,9 @@
-import java.util.*;
 
-class Test {
+class Test { // Complete the sockMerchant function below.
     public static void main(String[] args) {
-        String s1 = "yes";
-        String s2 = "yes";
-        String s3 = new String(s1);
-        System.out.println(s3 == s2);
+        for (int i = 0; i < 26; i++) {
+            int chr = 'Z' - 'A';
+            System.out.println(chr);
+        }
     }
 }

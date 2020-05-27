@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TACHSTCK",
+            "request": "launch",
+            "mainClass": "TACHSTCK",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EASYPROB",
+            "request": "launch",
+            "mainClass": "EASYPROB",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RIGHTRI",
+            "request": "launch",
+            "mainClass": "RIGHTRI",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DIVIDING",
+            "request": "launch",
+            "mainClass": "DIVIDING",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VOTERS",
+            "request": "launch",
+            "mainClass": "VOTERS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BUYING2",
+            "request": "launch",
+            "mainClass": "BUYING2",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TriaMatrix",
+            "request": "launch",
+            "mainClass": "TriaMatrix",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trie",
+            "request": "launch",
+            "mainClass": "Trie",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueRowMatrix",
+            "request": "launch",
+            "mainClass": "UniqueRowMatrix",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatrixSearch",
+            "request": "launch",
+            "mainClass": "MatrixSearch",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SALARY",
+            "request": "launch",
+            "mainClass": "SALARY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Glass",
+            "request": "launch",
+            "mainClass": "Glass",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hourglass",
+            "request": "launch",
+            "mainClass": "Hourglass",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ELEVSTRS",
+            "request": "launch",
+            "mainClass": "ELEVSTRS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TABLET",
+            "request": "launch",
+            "mainClass": "TABLET",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ERROR",
             "request": "launch",
             "mainClass": "ERROR",
