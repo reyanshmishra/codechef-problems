@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NAME2",
+            "request": "launch",
+            "mainClass": "NAME2",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TOTR",
+            "request": "launch",
+            "mainClass": "TOTR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RRCOPY",
+            "request": "launch",
+            "mainClass": "RRCOPY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SPCANDY",
+            "request": "launch",
+            "mainClass": "SPCANDY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OJUMPS",
+            "request": "launch",
+            "mainClass": "OJUMPS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RESQ",
+            "request": "launch",
+            "mainClass": "RESQ",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TACHSTCK",
             "request": "launch",
             "mainClass": "TACHSTCK",
