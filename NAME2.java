@@ -17,7 +17,7 @@ class NAME2 {
       }
       int j = 0, i = 0;
 
-      while (i < big.length()) {
+      while (i < big.length() && j < small.length()) {
         if (big.charAt(i) == small.charAt(j)) {
           res += small.charAt(j);
           i++;

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LEBOMBS",
+            "request": "launch",
+            "mainClass": "LEBOMBS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AMSGAME1",
+            "request": "launch",
+            "mainClass": "AMSGAME1",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NAME2",
             "request": "launch",
             "mainClass": "NAME2",
