@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - COMPILER",
+            "request": "launch",
+            "mainClass": "COMPILER",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ANUDTC",
+            "request": "launch",
+            "mainClass": "ANUDTC",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ALEXNUMB",
+            "request": "launch",
+            "mainClass": "ALEXNUMB",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LEBOMBS",
             "request": "launch",
             "mainClass": "LEBOMBS",
