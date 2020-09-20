@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LCH15JAB",
+            "request": "launch",
+            "mainClass": "LCH15JAB",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ADASCOOL",
+            "request": "launch",
+            "mainClass": "ADASCOOL",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlatLand",
+            "request": "launch",
+            "mainClass": "FlatLand",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LUCKY5",
+            "request": "launch",
+            "mainClass": "LUCKY5",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SumOfPair",
+            "request": "launch",
+            "mainClass": "SumOfPair",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NUM239",
+            "request": "launch",
+            "mainClass": "NUM239",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ANUWTA",
+            "request": "launch",
+            "mainClass": "ANUWTA",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - COMPILER",
             "request": "launch",
             "mainClass": "COMPILER",

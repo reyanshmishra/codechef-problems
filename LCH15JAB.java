@@ -7,7 +7,6 @@ class LCH15JAB {
         while (T > 0) {
             String string = scan.next();
             int alphabets[] = new int[26];
-            String result = "NO";
             int count = 0;
             for (int i = 0; i < string.length(); i++) {
                 int index = string.charAt(i) - 'a';
@@ -15,14 +14,21 @@ class LCH15JAB {
                 if (alphabets[index] > count) {
                     count = alphabets[index];
                 }
-                if (count == string.length() - count) {
-                    result = "YES";
-                    break;
-                }
+
             }
+            Arrays.sort(alphabets);
+            int d = 24;
+            int sum = 0;
+            while (d > 0) {
+                sum = sum + alphabets[d];
+                d--;
+            }
+            if (alphabets[25] == sum) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
 
-            System.out.println(result);
-
+            }
             T--;
         }
         scan.close();

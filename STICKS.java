@@ -20,6 +20,7 @@ class STICKS {
                 if (arr[i] == arr[i - 1]) {
                     if (w == 0) {
                         w = arr[i];
+                        i--;
                     } else {
                         res = w * arr[i];
                         break;
@@ -27,7 +28,6 @@ class STICKS {
                 }
             }
             System.out.println(res);
-
             T--;
         }
         scan.close();
