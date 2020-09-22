@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CHFINTRO",
+            "request": "launch",
+            "mainClass": "CHFINTRO",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ANKTRAIN",
+            "request": "launch",
+            "mainClass": "ANKTRAIN",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LOSTMAX",
+            "request": "launch",
+            "mainClass": "LOSTMAX",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CV",
+            "request": "launch",
+            "mainClass": "CV",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SIMPSTAT",
+            "request": "launch",
+            "mainClass": "SIMPSTAT",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CLIPLX",
+            "request": "launch",
+            "mainClass": "CLIPLX",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PLAYPIAN",
+            "request": "launch",
+            "mainClass": "PLAYPIAN",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TICKETS5",
+            "request": "launch",
+            "mainClass": "TICKETS5",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MATCHES",
+            "request": "launch",
+            "mainClass": "MATCHES",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BOWLERS",
+            "request": "launch",
+            "mainClass": "BOWLERS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TTENIS",
+            "request": "launch",
+            "mainClass": "TTENIS",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CO92JUDG",
+            "request": "launch",
+            "mainClass": "CO92JUDG",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CHEFSTUD",
+            "request": "launch",
+            "mainClass": "CHEFSTUD",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CUTBOARD",
+            "request": "launch",
+            "mainClass": "CUTBOARD",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LCH15JAB",
             "request": "launch",
             "mainClass": "LCH15JAB",

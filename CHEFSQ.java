@@ -15,9 +15,20 @@ class CHEFSQ {
             for (int i = 0; i < sub.length; i++) {
                 sub[i] = scan.nextInt();
             }
-            for (int i = 0; i < string.length; i++) {
-
+            boolean found = false;
+            int subi = 0;
+            for (int i : string) {
+                if (i == sub[subi]) {
+                    subi++;
+                    if (subi == sub.length) {
+                        System.out.println("Yes");
+                        found = true;
+                        break;
+                    }
+                }
             }
+            if (!found)
+                System.out.println("No");
 
             T--;
         }

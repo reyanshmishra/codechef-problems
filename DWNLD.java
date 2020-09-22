@@ -8,6 +8,7 @@ class DWNLD {
             int N = scan.nextInt();
             int K = scan.nextInt();
             int usage[][] = new int[N][2];
+
             for (int i = 0; i < usage.length; i++) {
                 usage[i][0] = scan.nextInt();
                 usage[i][1] = scan.nextInt();
