@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PLAYSTR",
+            "request": "launch",
+            "mainClass": "PLAYSTR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDELAY",
+            "request": "launch",
+            "mainClass": "JDELAY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FRK",
+            "request": "launch",
+            "mainClass": "FRK",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CHCHCL",
+            "request": "launch",
+            "mainClass": "CHCHCL",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UTMOPR",
+            "request": "launch",
+            "mainClass": "UTMOPR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - QUADROOT",
             "request": "launch",
             "mainClass": "QUADROOT",
