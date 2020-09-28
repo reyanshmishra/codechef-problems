@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CHRL2",
+            "request": "launch",
+            "mainClass": "CHRL2",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZCOSCH",
+            "request": "launch",
+            "mainClass": "ZCOSCH",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WATMELON",
+            "request": "launch",
+            "mainClass": "WATMELON",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GOODBAD",
+            "request": "launch",
+            "mainClass": "GOODBAD",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CK87MEDI",
+            "request": "launch",
+            "mainClass": "CK87MEDI",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GIFTSRC",
+            "request": "launch",
+            "mainClass": "GIFTSRC",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SNAKPROC",
+            "request": "launch",
+            "mainClass": "SNAKPROC",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATTND",
+            "request": "launch",
+            "mainClass": "ATTND",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RPD",
+            "request": "launch",
+            "mainClass": "RPD",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PRGIFT",
+            "request": "launch",
+            "mainClass": "PRGIFT",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CHFINTRO",
             "request": "launch",
             "mainClass": "CHFINTRO",

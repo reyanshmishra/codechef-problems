@@ -4,23 +4,36 @@ import java.util.Scanner;
 
 class Test { // Complete the sockMerchant function below.
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int T = scan.nextInt();
+        while (T-- > 0) {
 
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            for (int i = a; i <= b; i++) {
+                if (isPrime(i)) {
+                    System.out.println(i);
+                }
+            }
+
+        }
+        scan.close();
     }
 
-    static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
-        List<Integer> arr = new ArrayList<>();
-        arr.add(0);
-        arr.add(0);
-        for (int i = 0; i < 3; i++) {
-            if (a.get(i) > b.get(i)) {
-                arr.add(0, arr.get(0) + 1);
-            } else if (a.get(i) < b.get(i)) {
-                arr.add(1, arr.get(1) + 1);
+    static boolean isPrime(int n) {
+        boolean isPrime = true;
+        if (n <= 1) {
+            return false;
+        }
 
-            } else {
-
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                isPrime = false;
+                break;
             }
         }
-        return arr;
+        return isPrime;
+
     }
+
 }
