@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - QUADROOT",
+            "request": "launch",
+            "mainClass": "QUADROOT",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TEMPLELA",
+            "request": "launch",
+            "mainClass": "TEMPLELA",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CHRL2",
             "request": "launch",
             "mainClass": "CHRL2",
