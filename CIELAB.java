@@ -7,13 +7,13 @@ class CIELAB {
         long A = scan.nextLong();
         long B = scan.nextLong();
         long ans = A - B;
-
-        if (ans < 0) {
-            ans *= -1;
-            ans = ans - 1;
+        if (ans == 0) {
+            System.out.println(1);
+        } else if (ans % 10 == 9) {
+            System.out.println(ans - 1);
+        } else {
+            System.out.println(ans + 1);
         }
-
-        System.out.println(ans);
         scan.close();
     }
 }

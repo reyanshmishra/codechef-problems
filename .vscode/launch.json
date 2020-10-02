@@ -6,13 +6,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Debug (Launch)-VOWELorCONSONANT<Codechef_26ca7f23>",
-      "request": "launch",
-      "mainClass": "VOWELorCONSONANT",
-      "projectName": "Codechef_26ca7f23"
-    },
-    {
-      "type": "java",
       "name": "Debug (Launch)-VersionControlSystem<Codechef_26ca7f23>",
       "request": "launch",
       "mainClass": "VersionControlSystem",
