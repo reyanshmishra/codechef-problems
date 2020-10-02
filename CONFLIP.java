@@ -7,37 +7,23 @@ class CONFLIP {
         while (T > 0) {
             int G = scan.nextInt();
 
-
             while (G-- > 0) {
-                // state of coins 1= head 2 =tail
+                // state of coins 1=head 2=tail
                 int I = scan.nextInt();
                 // number of coins and rounds
                 int N = scan.nextInt();
                 // 1 or 2 guess head or tail
                 int Q = scan.nextInt();
-                int heads = 0;
-                int tails = 0;
-                if (I == 1) {
-                    heads = N;
+                if (N % 2 == 0) {
+                    System.out.println(N / 2);
                 } else {
-                    tails = N;
-                }
-                for (int j = 1; j <= N; j++) {
-                    if (j % 2 != 0 && I == 1) {
-                        if (heads > 0)
-                            heads--;
-                        tails++;
-                    }
-                    if (j % 2 != 0 && I == 2) {
-                        heads++;
-                        if (tails > 0)
-                            tails--;
+                    if (I == Q) {
+                        System.out.println(N / 2);
+                    } else {
+                        System.out.println((N / 2) + 1);
                     }
                 }
-                System.out.println(Q == 1 ? heads : tails);
             }
-
-
             T--;
         }
         scan.close();
