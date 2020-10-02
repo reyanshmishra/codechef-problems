@@ -5,23 +5,19 @@ class DEVUGRAP {
     Scanner scan = new Scanner(System.in);
     int T = scan.nextInt();
     while (T > 0) {
-      int noBaskets = scan.nextInt();
-      int K = scan.nextInt();
-
-      int baskets[] = new int[noBaskets];
-      for (int i = 0; i < noBaskets; i++) {
-        baskets[i] = scan.nextInt();
+      long N = scan.nextInt();
+      long K = scan.nextInt();
+      long total = 0;
+      for (int i = 0; i < N; i++) {
+        int m = scan.nextInt();
+        System.out.println(m / K);
+        long r = m % K;
+        if (m >= K)
+          total += Math.min(r, K - r);
+        else
+          total += K - r;
       }
-      int ans = 0;
-      for (int i : baskets) {
-        int rem = i % K;
-        if (i > K) {
-          ans = ans + Math.min(rem, K - rem);
-        } else {
-          ans = ans + K - rem;
-        }
-      }
-      System.out.println(ans);
+      System.out.println(total);
       T--;
     }
     scan.close();

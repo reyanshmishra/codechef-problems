@@ -1,4 +1,3 @@
-import java.util.HashMap;
 import java.util.Scanner;
 
 class ANKTRAIN {
@@ -7,19 +6,37 @@ class ANKTRAIN {
     int T = scan.nextInt();
     while (T-- > 0) {
       int N = scan.nextInt();
-      HashMap<Integer, String> hash = new HashMap<>();
-      if (N > 8) {
-        N = (N % 8) + 1;
+      int rem = N % 8;
+      switch (rem) {
+        case 0:
+          System.out.println(N - 1 + "SL");
+          break;
+        case 1:
+          System.out.println(N + 3 + "LB");
+          break;
+        case 2:
+          System.out.println(N + 3 + "MB");
+          break;
+        case 3:
+          System.out.println(N + 3 + "UB");
+          break;
+        case 4:
+          System.out.println(N - 3 + "LB");
+          break;
+        case 5:
+          System.out.println(N - 3 + "MB");
+          break;
+        case 6:
+          System.out.println(N - 3 + "UB");
+          break;
+        case 7:
+          System.out.println(N + 1 + "SU");
+          break;
+        default:
+          break;
       }
-      hash.put(1, "4LB");
-      hash.put(2, "5MB");
-      hash.put(3, "6UB");
-      hash.put(4, "1LB");
-      hash.put(5, "2MB");
-      hash.put(6, "3UB");
-      hash.put(7, "8SU");
-      hash.put(8, "7SL");
-      System.out.println(hash.get(N));
+
+
 
     }
     scan.close();

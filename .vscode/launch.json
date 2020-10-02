@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CHEFARRP",
+            "request": "launch",
+            "mainClass": "CHEFARRP",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ALTARAY",
+            "request": "launch",
+            "mainClass": "ALTARAY",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PCJ18B",
+            "request": "launch",
+            "mainClass": "PCJ18B",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - THREEFR",
+            "request": "launch",
+            "mainClass": "THREEFR",
+            "projectName": "Codechef_26ca7f23"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PLAYSTR",
             "request": "launch",
             "mainClass": "PLAYSTR",

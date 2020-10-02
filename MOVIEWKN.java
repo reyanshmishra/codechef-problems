@@ -8,25 +8,34 @@ class MOVIEWKN {
         int T = scan.nextInt();
         while (T-- > 0) {
             int N = scan.nextInt();
-            int length[] = new int[N];
-            int rating[] = new int[N];
-            int maxLR = 0;
-            int maxR = 0;
+            int movies[][] = new int[2][N];
+
             int ans = 0;
+            int lnr = 0;
+            int rat = 0;
 
             for (int i = 0; i < N; i++) {
-                length[i] = scan.nextInt();
-                rating[i] = scan.nextInt();
-                if (length[i] * rating[i] > maxLR) {
-                    maxLR = length[i] * rating[i];
-                    maxR = rating[i];
+                movies[0][i] = scan.nextInt();
+            }
+
+            for (int i = 0; i < N; i++) {
+                movies[1][i] = scan.nextInt();
+            }
+
+            for (int i = 0; i < N; i++) {
+                int l = movies[0][i];
+                int r = movies[1][i];
+                if (l * r > lnr) {
+                    lnr = l * r;
+                    rat = r;
                     ans = i;
-                } else if (rating[i] > maxR) {
-                    maxR = rating[i];
+                } else if (l * r == lnr && r > rat) {
                     ans = i;
+                    rat = r;
                 }
             }
-            System.out.println(ans);
+
+            System.out.println(ans + 1);
         }
         scan.close();
     }

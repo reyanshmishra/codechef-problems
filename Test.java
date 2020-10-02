@@ -4,20 +4,9 @@ import java.util.Scanner;
 
 class Test { // Complete the sockMerchant function below.
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int T = scan.nextInt();
-        while (T-- > 0) {
-
-            int a = scan.nextInt();
-            int b = scan.nextInt();
-            for (int i = a; i <= b; i++) {
-                if (isPrime(i)) {
-                    System.out.println(i);
-                }
-            }
-
-        }
-        scan.close();
+        // Scanner scan = new Scanner(System.in);
+        System.out.println(3 - 8 % 3);
+        System.out.println(8 % 3);
     }
 
     static boolean isPrime(int n) {

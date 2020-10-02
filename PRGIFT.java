@@ -13,20 +13,13 @@ class PRGIFT {
       for (int i = 0; i < n; i++) {
         arr[i] = scan.nextInt();
       }
+
       int count = 0;
-      boolean found = false;
       for (int i = 0; i < n; i++) {
         if (arr[i] % 2 == 0) {
           count++;
-          if (count == k) {
-            found = true;
-            break;
-          }
         }
       }
-      System.out.println(found ? "YES" : "NO");
-
-
     }
     scan.close();
   }

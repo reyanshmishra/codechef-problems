@@ -1,39 +1,41 @@
 import java.io.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 class GIFTSRC {
-  public static void main(String[] args) throws IOException {
-    Reader br = new Reader();
-    int T = br.getInt();
-    while (T-- > 0) {
-      int n = br.getInt();
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int T = scan.nextInt();
+    while (T > 0) {
+      int N = scan.nextInt();
+      String S = scan.next();
+      Stack<Character> chars = new Stack<>();
+      chars.add('F');
+      int x = 0;
+      int y = 0;
+      for (int i = 0; i < N; i++) {
+        char c = S.charAt(i);
+        if ((c == 'L' || c == 'R') && (chars.peek() != 'L' && chars.peek() != 'R')) {
+          chars.add(c);
+        }
+        if ((c == 'U' || c == 'D') && (chars.peek() != 'D' && chars.peek() != 'U')) {
+          chars.add(c);
+        }
+      }
 
-
+      for (Character c : chars) {
+        if (c == 'L')
+          x -= 1;
+        if (c == 'R')
+          x += 1;
+        if (c == 'U')
+          y += 1;
+        if (c == 'D')
+          y -= 1;
+      }
+      System.out.println(x + " " + y);
+      T--;
     }
-  }
-
-  static class Reader {
-    InputStreamReader r = null;
-    BufferedReader br = null;
-
-    Reader() {
-      r = new InputStreamReader(System.in);
-      br = new BufferedReader(r);
-    }
-
-    public int getInt() throws NumberFormatException, IOException {
-      return Integer.parseInt(br.readLine());
-    }
-
-    public String getString() throws IOException {
-      return String.valueOf(br.readLine());
-    }
-
-    public Float getFloat() throws IOException {
-      return Float.parseFloat(br.readLine());
-    }
-
-    public double getDouble() throws IOException {
-      return Double.parseDouble(br.readLine());
-    }
+    scan.close();
   }
 }

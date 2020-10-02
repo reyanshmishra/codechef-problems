@@ -8,21 +8,25 @@ class DWNLD {
             int N = scan.nextInt();
             int K = scan.nextInt();
             int usage[][] = new int[N][2];
-
-            for (int i = 0; i < usage.length; i++) {
+            int ans = 0;
+            for (int i = 0; i < N; i++) {
                 usage[i][0] = scan.nextInt();
                 usage[i][1] = scan.nextInt();
             }
-            int res = 0;
-            for (int i = 0; i < usage.length; i++) {
-                int min = usage[i][0];
-                if (K > 0) {
-                    min = K - min > 0 ? 0 : min - K;
-                    K = K >= usage[i][0] ? K - usage[i][0] : usage[i][0] - K;
+
+            for (int i = 0; i < N; i++) {
+                int t = usage[i][0];
+                int d = usage[i][1];
+                if (K > 0 && K > t) {
+                    K = K - t;
+                    t = 0;
+                } else if (K > 0 && K <= t) {
+                    t = t - K;
+                    K = 0;
                 }
-                res += min * usage[i][1];
+                ans += t * d;
             }
-            System.out.println(res);
+            System.out.println(ans);
             T--;
         }
         scan.close();
