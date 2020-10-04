@@ -4,24 +4,23 @@ import java.util.*;
 class NUKES {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int A = scan.nextInt();
-        int N = scan.nextInt();
-        int K = scan.nextInt();
+        int A = scan.nextInt();// Number of particles
+        int N = scan.nextInt();// Max particle
+        int K = scan.nextInt();// Chambers
         int chambers[] = new int[K];
-        Arrays.sort(chambers);
-        int i = 0;
-        while (A-- > 0) {
-            if (i > N) {
-                i = 0;
-            }
-            if (chambers[i] < N) {
-                chambers[i]++;
-            } else {
-                chambers[i] = 0;
-                chambers[i + 1]++;
+
+        for (int i = 0; i < A; i++) {
+            for (int j = 0; j < K; j++) {
+                chambers[j]++;
+                if (chambers[j] > N) {
+                    chambers[j] = 0;
+                } else {
+                    break;
+                }
             }
         }
-        System.out.println(Arrays.toString(chambers));
+        for (int i : chambers)
+            System.out.print(i + " ");
 
         scan.close();
     }
