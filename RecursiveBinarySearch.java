@@ -2,8 +2,10 @@
 class RecursiveBinarySearch {
   public static void main(String[] args) {
     int arr[] = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int count = 14;
-    System.out.println(searchIt(count, arr, 0, arr.length - 1));
+    int c = 14;
+    while (c-- > 0) {
+      System.out.println(searchIt(c, arr, 0, arr.length - 1));
+    }
   }
 
   static int searchIt(int find, int arr[], int low, int high) {
