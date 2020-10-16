@@ -28,6 +28,7 @@ class GOODBAD {
 
         tc--;
       }
+      sc.close();
     }
   }
 }

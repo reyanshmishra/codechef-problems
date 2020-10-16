@@ -5,39 +5,27 @@ class NAME2 {
     Scanner scan = new Scanner(System.in);
     int T = scan.nextInt();
     while (T > 0) {
-      String M = scan.next();
-      String W = scan.next();
-      String big = "", small = "", res = "";
-      if (M.length() > W.length()) {
-        big = M;
-        small = W;
-      } else {
-        big = W;
-        small = M;
-      }
-      int j = 0, i = 0;
+      char M[] = scan.next().toCharArray();
+      char W[] = scan.next().toCharArray();
 
-      while (i < big.length() && j < small.length()) {
-        if (big.charAt(i) == small.charAt(j)) {
-          res += small.charAt(j);
-          i++;
-          j++;
-          if (res.length() == small.length())
-            break;
-        } else {
-          i++;
-        }
-      }
-      if (res.length() == small.length()) {
-        System.out.println("YES");
-      } else {
-        System.out.println("NO");
-      }
-
-
-
+      System.out.println(M.length > W.length ? canMarry(M, W) : canMarry(W, M));
       T--;
     }
     scan.close();
+  }
+
+  static String canMarry(char a[], char b[]) {
+    int i = 0, j = 0;
+    while (i < a.length && j <= b.length) {
+      if (b[j] == a[i]) {
+        j++;
+        i++;
+        if (j == b.length)
+          break;
+      } else {
+        i++;
+      }
+    }
+    return j == b.length ? "YES" : "NO";
   }
 }

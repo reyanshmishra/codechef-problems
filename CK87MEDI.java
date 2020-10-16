@@ -19,6 +19,7 @@ class CK87MEDI {
 
       System.out.println(numbers[index]);
     }
+    br.close();
   }
 
 }

@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CountRotation",
+      "request": "launch",
+      "mainClass": "CountRotation",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Rotation",
+      "request": "launch",
+      "mainClass": "Rotation",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RotationSum",
+      "request": "launch",
+      "mainClass": "RotationSum",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SumOfPair",
+      "request": "launch",
+      "mainClass": "SumOfPair",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch)-VersionControlSystem<Codechef_26ca7f23>",
       "request": "launch",
       "mainClass": "VersionControlSystem",
