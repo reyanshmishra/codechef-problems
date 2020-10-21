@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class RotationSum {
   public static void main(String[] args) {

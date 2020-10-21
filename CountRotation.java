@@ -1,6 +1,5 @@
 // Java program for right rotation of
 // an array (Reversal Algorithm)
-import java.io.*;
 
 class CountRotation {
   // Function to reverse arr[]

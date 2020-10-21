@@ -5,7 +5,6 @@ class CV {
     Scanner scan = new Scanner(System.in);
     int T = scan.nextInt();
     while (T-- > 0) {
-      int n = scan.nextInt();
       String S = scan.next();
       int count = 0;
       // Pretty strange issue of accessing Chars which are out of range.;

@@ -6,8 +6,6 @@ class BUGCAL {
     int T = scan.nextInt();
     while (T-- > 0) {
 
-      int a = scan.nextInt();
-      int b = scan.nextInt();
       System.out.println();
 
     }
