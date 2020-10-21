@@ -1,28 +1,22 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
-class Test { // Complete the sockMerchant function below.
+class Test {
     public static void main(String[] args) {
-        // Scanner scan = new Scanner(System.in);
-        System.out.println(3 - 8 % 3);
-        System.out.println(8 % 3);
+        System.out.println(isSquare(2147483647));
     }
 
-    static boolean isPrime(int n) {
-        boolean isPrime = true;
-        if (n <= 1) {
-            return false;
-        }
-
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                isPrime = false;
-                break;
+    static boolean isSquare(int n) {
+        long low = 1, high = n;
+        while (low <= high) {
+            long mid = low + (high - low) / 2;
+            long product = mid * mid;
+            if (product == n) {
+                return true;
+            } else if (product > n) {
+                high = mid - 1;
+            } else if (product < n) {
+                low = mid + 1;
             }
         }
-        return isPrime;
-
+        return false;
     }
-
 }

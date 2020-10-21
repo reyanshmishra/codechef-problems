@@ -7,7 +7,6 @@ class SNAKPROC {
     Reader br = new Reader();
     int T = br.getInt();
     while (T-- > 0) {
-      int length = br.getInt();
       String report = br.getString().replace(".", "");
       int count = 0;
 

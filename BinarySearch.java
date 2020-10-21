@@ -1,21 +1,38 @@
 class BinarySearch {
     public static void main(String[] args) {
-        int arr[] = new int[] {1, 1, 2, 3, 3, 4, 4, 4, 4, 5, 5, 6, 7, 8, 9, 9, 9, 10};
-        int find = 10;
+        int arr[] = new int[] {1, 2};
+        System.out.println("" + iterativeBS(arr, 2));
+        // System.out.println("" + recursiveApproach(arr, 1, 0, arr.length - 1));
+    }
+
+    static int iterativeBS(int arr[], int find) {
         int low = 0, high = arr.length - 1;
-        while (high >= low) {
-            int mid = low + high / 2;
+        int index = -1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
             if (arr[mid] == find) {
-                System.out.println(mid);
-                return;
+                index = mid;
+                break;
             }
-            if (arr[mid] < find) {
+            if (arr[mid] < find)
                 low = mid + 1;
-            } else if (arr[mid] > find) {
+            if (arr[mid] > find)
                 high = mid - 1;
-            } else {
-                System.out.println("NOT FOUND");
-            }
         }
+        return index;
+    }
+
+    static int recursiveApproach(int arr[], int find, int low, int high) {
+        int mid = low + (high - low) / 2;
+        int a = arr[mid];
+        if (low > high)
+            return -1;
+        if (a == find)
+            return mid;
+        if (a < find)
+            return recursiveApproach(arr, find, mid + 1, high);
+        if (a > find)
+            return recursiveApproach(arr, find, low, mid - 1);
+        return -1;
     }
 }
