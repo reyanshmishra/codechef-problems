@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Trie",
+      "request": "launch",
+      "mainClass": "Trie",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RemoveKDigits",
       "request": "launch",
       "mainClass": "RemoveKDigits",
