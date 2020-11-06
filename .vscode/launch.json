@@ -6,6 +6,146 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MinimumCosttoMoveChipstoTheSamePosition",
+      "request": "launch",
+      "mainClass": "Leetcode.MinimumCosttoMoveChipstoTheSamePosition",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MinimumHeightTrees",
+      "request": "launch",
+      "mainClass": "Leetcode.MinimumHeightTrees",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SubSetSum",
+      "request": "launch",
+      "mainClass": "Leetcode.SubSetSum",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CycleInDirectedGraph",
+      "request": "launch",
+      "mainClass": "Algorithms.CycleInDirectedGraph",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PossibleBipartitionSolution",
+      "request": "launch",
+      "mainClass": "Algorithms.PossibleBipartitionSolution",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Knapsack",
+      "request": "launch",
+      "mainClass": "Algorithms.Knapsack",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IntervalListSection",
+      "request": "launch",
+      "mainClass": "Leetcode.IntervalListSection",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ConstructBinarySearchTreefromPreorderTraversal",
+      "request": "launch",
+      "mainClass": "Leetcode.ConstructBinarySearchTreefromPreorderTraversal",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RabinKarp",
+      "request": "launch",
+      "mainClass": "Algorithms.RabinKarp",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SortCharactersByFrequency",
+      "request": "launch",
+      "mainClass": "Leetcode.SortCharactersByFrequency",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BinaryTreeTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTreeTraversal",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StockSpanner",
+      "request": "launch",
+      "mainClass": "Leetcode.StockSpanner",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PermutationinStringSolution",
+      "request": "launch",
+      "mainClass": "Leetcode.PermutationinStringSolution",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FindAllAnagramsinaString",
+      "request": "launch",
+      "mainClass": "Leetcode.FindAllAnagramsinaString",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - OddLinkedListMay",
+      "request": "launch",
+      "mainClass": "Leetcode.OddLinkedListMay",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Kadanes",
+      "request": "launch",
+      "mainClass": "Algorithms.Kadanes",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MaxSumOfArray",
+      "request": "launch",
+      "mainClass": "MaxSumOfArray",
+      "projectName": "Codechef_26ca7f23"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Trie",
       "request": "launch",
       "mainClass": "Trie",

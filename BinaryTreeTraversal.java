@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeTraversal {
@@ -33,20 +34,14 @@ public class BinaryTreeTraversal {
   }
 
 
-  static void inOrderTraversal(TreeNode root) {
+  static void inOrderTraversal(TreeNode root, List<Integer> list) {
     if (root == null)
       return;
-
-
-    if (root.left != null) {
-      preOrderTraversal(root.left);
-    }
-    System.out.println(root.val);
-
-    if (root.right != null) {
-      preOrderTraversal(root.right);
-      return;
-    }
+    if (root.left != null)
+      inOrderTraversal(root.left, list);
+    list.add(root.val);
+    if (root.right != null)
+      inOrderTraversal(root.right, list);
   }
 
 
@@ -123,29 +118,25 @@ public class BinaryTreeTraversal {
   public static void main(String args[]) {
     // int tree[] = {1, 2, 3, 4, 5, 5, 6, 7};
 
-    TreeNode root = new TreeNode(1);
-    TreeNode node2 = new TreeNode(2);
-    TreeNode node3 = new TreeNode(3);
+    TreeNode root = new TreeNode(3);
+    TreeNode node2 = new TreeNode(1);
+    TreeNode node3 = new TreeNode(4);
+
     root.left = node2;
     root.right = node3;
-    TreeNode node4 = new TreeNode(4);
-    TreeNode node5 = new TreeNode(5);
 
-    node2.left = node4;
+    TreeNode node5 = new TreeNode(2);
     node2.right = node5;
 
-    TreeNode node6 = new TreeNode(6);
-    TreeNode node7 = new TreeNode(7);
+    // System.out.println(levelOrderTraversal(root, 4, 6));
+    System.out.println("Pre order traversal.");
+    preOrderTraversal(root);
 
-    node3.left = node6;
-    node3.right = node7;
-
-    System.out.println(levelOrderTraversal(root, 4, 6));
-    // System.out.println("Pre order traversal.");
-    // preOrderTraversal(root);
     // System.out.println("In order traversal.");
+    // List<Integer> list = new ArrayList<>();
+    // inOrderTraversal(root, list);
+    // System.out.println(list.get(3 - 1));
 
-    // inOrderTraversal(root);
     // System.out.println("Post order traversal.");
 
     // postOrderTraversal(root);

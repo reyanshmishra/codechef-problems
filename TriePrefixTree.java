@@ -15,12 +15,12 @@ public class TriePrefixTree {
     }
   }
 
-  public void insert(String word) {
+  static void insert(String word) {
     Node curr = root;
     for (int i = 0; i < word.length(); i++) {
-      char c = word.chatAt(i);
+      char c = word.charAt(i);
       int val = c - 'a';
-      Node node = curr.next[val];
+      Node node = curr.next[c];
       if (node == null) {
         node = new Node();
         curr.next[val] = node;
@@ -28,10 +28,6 @@ public class TriePrefixTree {
       curr = node;
     }
     curr.isWord = true;
-  }
-
-  static search(String word){
-    Node
   }
 
   public static void main(String args[]) {
