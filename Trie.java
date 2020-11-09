@@ -97,10 +97,7 @@ class Trie {
 
   public static void main(String args[]) {
     Trie trie = new Trie();
-    trie.insert("reyansh");
-    trie.insert("boom");
-    System.out.println(trie.delete("boom"));
-    System.out.println(trie.search("boom"));
+
   }
 
 }
